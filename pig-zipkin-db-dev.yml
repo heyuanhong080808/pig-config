@@ -12,8 +12,8 @@ spring:
 zipkin:
   collector:
     rabbitmq:
-      addresses: 106.14.69.75:5682
-      password: lengleng
+      addresses: 127.0.0.1 :5682
+      password: pig
       username: pig
       queue: zipkin
   storage:
