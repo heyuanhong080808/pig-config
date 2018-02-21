@@ -5,7 +5,7 @@ jasypt:
 
 spring:
   redis:
-    remote: true        #cachecloud 获取localhost
+    remote: true        #cachecloud 获取
     host: 127.0.0.1
     port: 6379
     password:
@@ -38,6 +38,14 @@ feign:
       feignName:
         connectTimeout: 10000
         readTimeout: 10000  
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 15000
     
 #监控短点配置
 management:
