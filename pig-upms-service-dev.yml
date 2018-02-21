@@ -14,7 +14,7 @@ spring:
     url: jdbc:mysql://localhost:3306/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
   rabbitmq:
     host: 127.0.0.1 
-    port: 5682
+    port: 5672
     username: pig
     password: pig
   zipkin:
