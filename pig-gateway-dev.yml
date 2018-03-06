@@ -1,18 +1,5 @@
 server:
-  port: 9999
-
-spring:
-  rabbitmq:
-    host: 127.0.0.1  
-    port: 5672
-    username: pig
-    password: pig
-  zipkin:
-    rabbitmq:
-      queue: zipkin
-  sleuth:
-    sampler:
-      percentage: 1.0
+  port: 9 
 
 zuul:
   ignoredServices: '*'
